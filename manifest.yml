@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: edwingarage5
+  host: edwingarage5
+  disk_quota: 1024M
+  services:
+  - Cloudant NoSQL DB-x5
